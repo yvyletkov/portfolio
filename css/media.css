@@ -1,0 +1,41 @@
+@media (max-width: 1000px) {
+  .footer__title {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+  .portfolio {
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 100%;
+  }
+  .portfolio__img {
+    order: 1;
+    width: 100%;
+  }
+  .portfolio-info {
+    width: 100%;
+    order: 2;
+    margin-top: 3.125rem;
+  }
+  .info {
+    padding: 150px 15px 50px 15px;
+  }
+}
+
+@media (max-width: 500px) {
+  html {
+    font-size: 12px;
+  }
+  .menu {
+    height: 70px;
+    padding-left: 20px;
+  }
+  .info {
+    padding: 100px 15px 50px 15px;
+  }
+}

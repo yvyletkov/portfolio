@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="rgb(31, 32, 36)">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
+    <link rel="stylesheet" href="./css/libs/libs.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500&display=swap" rel="stylesheet">
+    <title>yvyletkov {front-end разработчик}</title>
+</head>
+
+<body>
+<div class="preloader">
+    <div class="preloader__inner">
+        <div class="preloader__title">Привет!</div>
+        <div class="preloader__title">Загрузка, подождите</div>
+    </div>
+</div>
+
+<header class="menu">
+    <div class="burger-menu">
+        <div class="burger-menu__line burger-menu__line-1"></div>
+        <div class="burger-menu__line burger-menu__line-2"></div>
+        <div class="burger-menu__line burger-menu__line-3"></div>
+    </div>
+    <div class="menu__title">РАБОТЫ</div>
+</header>
+
+<main class="stage">
+    <picture>
+        <source type="image/webp" srcset="./img/me.webp">
+        <img class="stage__img" src="./img/me.png" alt="me">
+    </picture>
+    <video autoplay muted loop playsinline src="video/smoke.mp4" class="stage__video"></video>
+    <div class="info">
+        <div class="portfolio info__portfolio">
+            <section class="portfolio-info">
+                <h2 class="portfolio-info__title">Социальная сеть</h2>
+                <p class="portfolio-info__descr">Работа в процессе. Самый крупный и функциональный мой проект на данный
+                    момент.<br>
+                    Реализована страница профиля с возможностью загрузки фото и информации о пользователе на сервер,
+                    страница пользователей с возможностью подписываться, форма авторизации на сайте.
+                </p>
+                <ul class="portfolio-info__list">
+                    <li class="portfolio-info__list-item">REACT + REDUX</li>
+                    <li class="portfolio-info__list-item">Redux-thunk</li>
+                    <li class="portfolio-info__list-item">Redux-form</li>
+                    <li class="portfolio-info__list-item">Axios</li>
+                    <li class="portfolio-info__list-item">React-router</li>
+                    <li class="portfolio-info__list-item">compose</li>
+                    <li class="portfolio-info__list-item">reselect</li>
+                </ul>
+                <a href="https://yvyletkov.github.io/NoNameNetwork/" target="_blank"
+                   class="portfolio-info__link">ПОСМОТРЕТЬ</a>
+            </section>
+            <img src="./img/social-network.jpg" alt="Социальная сеть" class="portfolio__img">
+        </div>
+        <div class="portfolio info__portfolio">
+            <section class="portfolio-info">
+                <h2 class="portfolio-info__title">Watchlist на MovieDB API</h2>
+                <p class="portfolio-info__descr">Простое приложение для составления списка фильмов для просмотра,
+                    работающее на API портала theMovieDB.org</p>
+                <ul class="portfolio-info__list">
+                    <li class="portfolio-info__list-item">REACT + REDUX</li>
+                    <li class="portfolio-info__list-item">Redux-thunk</li>
+                    <li class="portfolio-info__list-item">React-router</li>
+                    <li class="portfolio-info__list-item">Axios</li>
+                    <li class="portfolio-info__list-item">Bootstrap 4</li>
+                </ul>
+                <a href="https://yvyletkov.github.io/moviesapiapp/" target="_blank"
+                   class="portfolio-info__link">ПОСМОТРЕТЬ</a>
+            </section>
+            <img src="./img/moviedb-watchlist.jpg" alt="MovieDB watchlist" class="portfolio__img">
+        </div>
+        <div class="portfolio info__portfolio">
+            <section class="portfolio-info">
+                <h2 class="portfolio-info__title">Чат на socket.io </h2>
+                <p class="portfolio-info__descr">Созданный с целью ознакомления с NodeJS и библиотекой socket.io
+                    небольшой,
+                    комфортный в использовании чат.</p>
+                <ul class="portfolio-info__list">
+                    <li class="portfolio-info__list-item">React + Node.js</li>
+                    <li class="portfolio-info__list-item">Socket.IO</li>
+                    <li class="portfolio-info__list-item">Axios</li>
+                    <li class="portfolio-info__list-item">Nodemon</li>
+                </ul>
+                <a href="https://github.com/yvyletkov/socket-io-chat" target="_blank"
+                   class="portfolio-info__link">ПОСМОТРЕТЬ РЕПОЗИТОРИЙ</a>
+            </section>
+            <img src="./img/socketio-chat.jpg" alt="Чат на socket.io" class="portfolio__img">
+        </div>
+    </div>
+</main>
+
+<footer class="footer">
+    <h3 class="footer__title">Ярослав Вылетков<br>front-end разработчик</h3>
+</footer>
+
+<script src="./js/main.js"></script>
+</body>
+
+</html>
