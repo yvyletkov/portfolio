@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta name="theme-color" content="rgb(31, 32, 36)">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/media.css">
@@ -20,18 +20,23 @@
     </div>
 </div>
 
-<header class="menu">
-    <div class="burger-menu">
-        <div class="burger-menu__line burger-menu__line-1"></div>
-        <div class="burger-menu__line burger-menu__line-2"></div>
-        <div class="burger-menu__line burger-menu__line-3"></div>
+<header class="header">
+    <div class="menu">
+        <div class="menu__burger">
+            <div class="menu__burger__line menu__burger__line-1"></div>
+            <div class="menu__burger__line menu__burger__line-2"></div>
+            <div class="menu__burger__line menu__burger__line-3"></div>
+        </div>
+        <div class="title">РАБОТЫ</div>
     </div>
-    <div class="menu__title">РАБОТЫ</div>
+    <a class="github-link" href="https://github.com/yvyletkov/" target="_blank">
+        <img src="./img/github-logo.png" alt="Гитхаб">
+    </a>
 </header>
 
 <main class="stage">
     <picture>
-        <source type="image/webp" srcset="./img/me.webp" class="stage__img-webp">
+        <source type="image/webp" srcset="./img/me.webp">
         <img class="stage__img" src="./img/me.png" alt="me">
     </picture>
     <video autoplay muted loop playsinline src="video/smoke.mp4" class="stage__video"></video>
@@ -50,8 +55,8 @@
                     <li class="portfolio-info__list-item">Redux-form</li>
                     <li class="portfolio-info__list-item">Axios</li>
                     <li class="portfolio-info__list-item">React-router</li>
-                    <li class="portfolio-info__list-item">compose</li>
                     <li class="portfolio-info__list-item">reselect</li>
+                    <li class="portfolio-info__list-item">classNames</li>
                 </ul>
                 <a href="https://yvyletkov.github.io/NoNameNetwork/" target="_blank"
                    class="portfolio-info__link">ПОСМОТРЕТЬ</a>

@@ -10,7 +10,7 @@ function preloader() {
 preloader();
 
 function menu() {
-    let burgerMenu = document.querySelector(".burger-menu");
+    let burgerMenu = document.querySelector(".menu__burger");
     let menuInfo = document.querySelector(".info");
     let video = document.querySelector(".stage__video");
 

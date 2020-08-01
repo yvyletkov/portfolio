@@ -31,9 +31,9 @@
   html {
     font-size: 12px;
   }
-  .menu {
+  .header {
     height: 70px;
-    padding-left: 20px;
+    padding: 0 20px;
   }
   .info {
     padding: 100px 15px 50px 15px;
